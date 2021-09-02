@@ -23,6 +23,10 @@ packages:
   repository: github.com/dpb587/go-internal-modtest/tree/v2
   unlisted: true
   metadata: *modtestMetadata
+- import: go.dpb.io/internal/modtest/cmd/modtestmain/v2
+  repository: github.com/dpb587/go-internal-modtest/tree/v2 # TODO unsupported
+  unlisted: true
+  metadata: *modtestMetadata
 - import: go.dpb.io/sitemap
   repository: github.com/dpb587/go-sitemap/tree/main
   metadata:
